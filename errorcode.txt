@@ -1,0 +1,14 @@
+| HTTP Status Code | Explanation                                           |
+|-------------------|-------------------------------------------------------|
+| `200 OK`          | Standard response for successful HTTP requestsw.       |
+| `201 Created`     | The request has been fulfilled, and a new resource has been created. |
+| `204 No Content`  | The server successfully processed the request, but there is no content to send. |
+| `400 Bad Request` | The server cannot or will not process the request due to a client error (e.g., malformed request syntax, invalid request message framing).|
+| `401 Unauthorized`| Similar to 403 Forbidden, but specifically for authentication issues. |
+| `403 Forbidden`   | The client does not have the necessary permissions.   |
+| `404 Not Found`   | The requested resource could not be found on the server.|
+| `500 Internal Server Error` | A generic error message returned when an unexpected condition was encountered by the server. |
+| `502 Bad Gateway` | The server, while acting as a gateway or proxy, received an invalid response from the upstream server it accessed in attempting to fulfill the request. |
+| `503 Service Unavailable` | The server is not ready to handle the request. Common causes include a server that is down for maintenance or is overloaded. |
+
+http://localhost:5001/api/v1/order/test
