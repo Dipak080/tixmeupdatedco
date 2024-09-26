@@ -5,7 +5,7 @@ const router = express.Router();
 const Event = require("../model/event");
 const ErrorHandler = require("../utils/ErrorHandler");
 
-// create user
+// create userdddd
 router.post("/aaa", async (req, res, next) => {
     try {
         res.status(201).json({
