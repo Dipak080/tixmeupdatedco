@@ -1479,7 +1479,7 @@ router.post("/get-event-attendence", async (req, res, next) => {
         return next(new ErrorHandler(error.message, 400));
     }
 });
-router.get("/homecountdata", async (req, res, next) => {
+router.get("/homecountdataa", async (req, res, next) => {
     try {
         // Execute counting operations concurrently
         const [EventsHosted, TicketsSold, OrganizerCount] = await Promise.all([
